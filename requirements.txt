@@ -1,4 +1,6 @@
+# requirements.txt
 Flask==3.0.3
 Flask-SQLAlchemy==3.1.1
-psycopg[binary]==3.2.1  # Modern adapter; binary for easy install (latest stable for 3.13)
+# Change the line below:
+psycopg[binary]==3.2.8  # OR psycopg[binary]==3.3.2
 gunicorn==22.0.0
