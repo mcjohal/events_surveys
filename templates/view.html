@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Survey - {{ survey.name or 'Anonymous' }}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f8f9fa; }
+        .santa-img { max-width: 150px; margin: 0 auto; display: block; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container">
+            <a class="navbar-brand" href="/">🎅 Secret Santa</a>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="/">Dashboard</a></li>
+                <li class="nav-item"><a class="nav-link" href="/survey">New Survey</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="https://www.freepnglogos.com/uploads/santa-claus-png/santa-claus-png-design-free-download-background-0.png" alt="Santa Claus" class="santa-img mb-4">
+                        <h2 class="text-center text-danger">Survey for {{ survey.name or 'Anonymous' }}</h2>
+                        <p class="text-muted">Submitted: {{ survey.timestamp }}</p>
+                        
+                        <h5>Favorite Things</h5>
+                        <dl class="row">
+                            <dt class="col-sm-3">Color:</dt><dd class="col-sm-9">{{ survey.color or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Hobbies:</dt><dd class="col-sm-9">{{ survey.hobbies or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Drink:</dt><dd class="col-sm-9">{{ survey.drink or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Candy/Treat:</dt><dd class="col-sm-9">{{ survey.candy or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Salty Snacks:</dt><dd class="col-sm-9">{{ survey.salty or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Baked Goods:</dt><dd class="col-sm-9">{{ survey.baked or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Fast Food/Restaurant:</dt><dd class="col-sm-9">{{ survey.fastfood or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Movie/TV Show:</dt><dd class="col-sm-9">{{ survey.movie or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Book/Magazine:</dt><dd class="col-sm-9">{{ survey.book or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Place to Shop:</dt><dd class="col-sm-9">{{ survey.shop or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Sports Team:</dt><dd class="col-sm-9">{{ survey.team or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Other:</dt><dd class="col-sm-9">{{ survey.other or 'N/A' }}</dd>
+                        </dl>
+                        
+                        <h5>This or That</h5>
+                        <dl class="row">
+                            <dt class="col-sm-3">Sweet or Salty:</dt><dd class="col-sm-9">{{ survey.sweet_salty or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Chocolate or Candy:</dt><dd class="col-sm-9">{{ survey.choc_candy or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Mints or Gum:</dt><dd class="col-sm-9">{{ survey.mints_gum or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Bright Colors or Neutrals:</dt><dd class="col-sm-9">{{ survey.colors or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Music or Podcast:</dt><dd class="col-sm-9">{{ survey.music_pod or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Book or Movie:</dt><dd class="col-sm-9">{{ survey.book_movie or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Stay In or Go Out:</dt><dd class="col-sm-9">{{ survey.stay_go or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Early Bird or Night Owl:</dt><dd class="col-sm-9">{{ survey.bird_owl or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Chapstick or Lipgloss:</dt><dd class="col-sm-9">{{ survey.chap_lip or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Dogs or Cats:</dt><dd class="col-sm-9">{{ survey.dogs_cats or 'N/A' }}</dd>
+                        </dl>
+                        
+                        <h5>Preferences</h5>
+                        <dl class="row">
+                            <dt class="col-sm-3">Gift Cards:</dt><dd class="col-sm-9">{{ survey.giftcards or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Food/Drink:</dt><dd class="col-sm-9">{{ survey.food or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Clothing:</dt><dd class="col-sm-9">{{ survey.clothing or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Home Decor/Blanket:</dt><dd class="col-sm-9">{{ survey.decor or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Plants/Flowers:</dt><dd class="col-sm-9">{{ survey.plants or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Allergies:</dt><dd class="col-sm-9">{{ survey.allergies or 'None' }}</dd>
+                            <dt class="col-sm-3">I want or would love:</dt><dd class="col-sm-9">{{ survey.want or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Don't need or want:</dt><dd class="col-sm-9">{{ survey.dontwant or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Shirt Size:</dt><dd class="col-sm-9">{{ survey.shirt or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Pant Size:</dt><dd class="col-sm-9">{{ survey.pant or 'N/A' }}</dd>
+                            <dt class="col-sm-3">Shoe Size:</dt><dd class="col-sm-9">{{ survey.shoe or 'N/A' }}</dd>
+                        </dl>
+                        
+                        <a href="/" class="btn btn-secondary">Back to Dashboard</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
