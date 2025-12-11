@@ -8,9 +8,17 @@ app.secret_key = 'santa-secret-2025'  # For flash messages—change in prod
 
 # Database setup
 database_uri = os.environ.get('DATABASE_URL')
+
+# Check if a database URI is provided (e.g., on Render)
 if database_uri:
-    database_uri = database_uri.replace("postgres://", "postgresql+psycopg://")  # Use psycopg3 dialect
-app.config['SQLALCHEMY_DATABASE_URI'] = database_uri or 'sqlite:///surveys.db'
+    # Render's DATABASE_URL starts with 'postgres://', which defaults to psycopg2.
+    # Replace it to explicitly use the modern psycopg (v3) dialect.
+    db_uri_to_use = database_uri.replace("postgres://", "postgresql+psycopg://")
+else:
+    # Use the default SQLite URI for local development
+    db_uri_to_use = 'sqlite:///surveys.db'
+
+app.config['SQLALCHEMY_DATABASE_URI'] = db_uri_to_use
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
