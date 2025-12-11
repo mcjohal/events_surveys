@@ -1,6 +1,4 @@
-# requirements.txt
 Flask==3.0.3
 Flask-SQLAlchemy==3.1.1
-# Change the line below:
-psycopg[binary]==3.2.8  # OR psycopg[binary]==3.3.2
+psycopg[binary]==3.2.8  
 gunicorn==22.0.0
