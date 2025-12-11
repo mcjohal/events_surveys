@@ -150,7 +150,8 @@
                             </div>
                             <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-3">
                                 <a href="/" class="btn btn-secondary me-md-2">Cancel</a>
-                                <button type="submit" class="btn btn-danger btn-lg">Update Survey 🎁</button>
+                                <button type="submit" class="btn btn-danger btn-lg me-md-2">Update Survey 🎁</button>
+                                <a href="/delete/{{ survey_id }}" class="btn btn-outline-danger btn-lg" onclick="return confirm('Are you sure you want to permanently delete this survey? This cannot be undone!')">Delete Survey 🗑️</a>
                             </div>
                         </form>
                     </div>
