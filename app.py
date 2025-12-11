@@ -165,5 +165,11 @@ def view_survey(survey_id):
 with app.app_context():
     db.create_all()
 
+@app.route('/init-db')
+def init_db():
+    with app.app_context():
+        db.create_all()
+    return "DB tables created!"
+
 if __name__ == '__main__':
     app.run(debug=True)
