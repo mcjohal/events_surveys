@@ -7,9 +7,10 @@ app = Flask(__name__)
 app.secret_key = 'santa-secret-2025'  # For flash messages—change in prod
 
 # Database setup
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL').replace(
-    "postgres://", "postgresql://"
-) if 'DATABASE_URL' in os.environ else 'sqlite:///surveys.db'
+database_uri = os.environ.get('DATABASE_URL')
+if database_uri:
+    database_uri = database_uri.replace("postgres://", "postgresql+psycopg://")  # Use psycopg3 dialect
+app.config['SQLALCHEMY_DATABASE_URI'] = database_uri or 'sqlite:///surveys.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
