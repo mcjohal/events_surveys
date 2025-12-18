@@ -1,0 +1,401 @@
+student_id,name,email,course_number,course_title,semester,year,grade,birthdate
+id_0001,Morgan Williams,morgan.williams001@students.example.edu,FIN201,Corporate Finance,Spring,2020,C+,2000-04-06
+id_0001,Morgan Williams,morgan.williams001@students.example.edu,ECON101,Microeconomics,Summer,2022,A,2000-04-06
+id_0001,Morgan Williams,morgan.williams001@students.example.edu,BIO101,Biology I,Fall,2023,D,2000-04-06
+id_0001,Morgan Williams,morgan.williams001@students.example.edu,CS250,Database Systems,Fall,2025,A+,2000-04-06
+id_0002,Aiden Davis,aiden.davis002@students.example.edu,CS230,Computer Architecture,Summer,2020,D+,1996-09-13
+id_0002,Aiden Davis,aiden.davis002@students.example.edu,ENV200,Environmental Science,Fall,2021,F,1996-09-13
+id_0002,Aiden Davis,aiden.davis002@students.example.edu,PHIL101,Introduction to Philosophy,Fall,2022,B+,1996-09-13
+id_0002,Aiden Davis,aiden.davis002@students.example.edu,CHEM101,General Chemistry I,Fall,2025,C+,1996-09-13
+id_0003,Rowan White,rowan.white003@students.example.edu,ECON101,Microeconomics,Fall,2020,A,2000-01-20
+id_0003,Rowan White,rowan.white003@students.example.edu,CHEM101,General Chemistry I,Spring,2022,D,2000-01-20
+id_0003,Rowan White,rowan.white003@students.example.edu,LAW210,Business Law,Spring,2023,B,2000-01-20
+id_0003,Rowan White,rowan.white003@students.example.edu,POLS101,American Government,Fall,2024,A,2000-01-20
+id_0004,Emerson Harris,emerson.harris004@students.example.edu,CS290,Artificial Intelligence Fundamentals,Fall,2020,D+,1996-10-05
+id_0004,Emerson Harris,emerson.harris004@students.example.edu,CS250,Database Systems,Summer,2021,B,1996-10-05
+id_0004,Emerson Harris,emerson.harris004@students.example.edu,MUS120,Music Theory I,Spring,2023,B+,1996-10-05
+id_0004,Emerson Harris,emerson.harris004@students.example.edu,CS101,Introduction to Computer Science,Summer,2025,D-,1996-10-05
+id_0005,Zoe Martin,zoe.martin005@students.example.edu,ITAL101,Elementary Italian I,Fall,2021,D,1998-03-04
+id_0005,Zoe Martin,zoe.martin005@students.example.edu,LAW210,Business Law,Spring,2022,C+,1998-03-04
+id_0005,Zoe Martin,zoe.martin005@students.example.edu,ECON102,Macroeconomics,Spring,2023,C-,1998-03-04
+id_0005,Zoe Martin,zoe.martin005@students.example.edu,CS101,Introduction to Computer Science,Spring,2025,D,1998-03-04
+id_0006,Aiden Brown,aiden.brown006@students.example.edu,PHYS101,Physics I,Fall,2020,D+,1996-09-02
+id_0006,Aiden Brown,aiden.brown006@students.example.edu,NURS200,Anatomy & Physiology,Summer,2021,C,1996-09-02
+id_0006,Aiden Brown,aiden.brown006@students.example.edu,CS230,Computer Architecture,Spring,2022,C,1996-09-02
+id_0006,Aiden Brown,aiden.brown006@students.example.edu,CS101,Introduction to Computer Science,Fall,2023,B,1996-09-02
+id_0007,Sam Lopez,sam.lopez007@students.example.edu,HIST101,World History,Spring,2020,C+,2002-11-06
+id_0007,Sam Lopez,sam.lopez007@students.example.edu,PHYS101,Physics I,Fall,2022,B-,2002-11-06
+id_0007,Sam Lopez,sam.lopez007@students.example.edu,MGMT210,Principles of Management,Fall,2023,B,2002-11-06
+id_0007,Sam Lopez,sam.lopez007@students.example.edu,ART110,Foundations of Drawing,Spring,2025,A,2002-11-06
+id_0008,Skyler Hernandez,skyler.hernandez008@students.example.edu,FREN101,Elementary French I,Spring,2020,F,1997-07-26
+id_0008,Skyler Hernandez,skyler.hernandez008@students.example.edu,EDUC210,Educational Psychology,Spring,2022,C,1997-07-26
+id_0008,Skyler Hernandez,skyler.hernandez008@students.example.edu,LAW210,Business Law,Fall,2023,D,1997-07-26
+id_0008,Skyler Hernandez,skyler.hernandez008@students.example.edu,PHIL101,Introduction to Philosophy,Summer,2024,B,1997-07-26
+id_0009,Cameron Lopez,cameron.lopez009@students.example.edu,POLS101,American Government,Summer,2020,B-,1997-01-13
+id_0009,Cameron Lopez,cameron.lopez009@students.example.edu,SOC101,Introduction to Sociology,Summer,2021,D,1997-01-13
+id_0009,Cameron Lopez,cameron.lopez009@students.example.edu,COMM101,Public Speaking,Spring,2023,A-,1997-01-13
+id_0009,Cameron Lopez,cameron.lopez009@students.example.edu,NURS200,Anatomy & Physiology,Summer,2025,C+,1997-01-13
+id_0010,Finley Hernandez,finley.hernandez010@students.example.edu,ACCT201,Financial Accounting,Summer,2020,B,2002-10-12
+id_0010,Finley Hernandez,finley.hernandez010@students.example.edu,PHYS102,Physics II,Summer,2023,A,2002-10-12
+id_0010,Finley Hernandez,finley.hernandez010@students.example.edu,SPAN101,Elementary Spanish I,Summer,2024,C-,2002-10-12
+id_0010,Finley Hernandez,finley.hernandez010@students.example.edu,HIST101,World History,Spring,2025,D,2002-10-12
+id_0011,Riley Thompson,riley.thompson011@students.example.edu,ART110,Foundations of Drawing,Summer,2021,D,2004-09-30
+id_0011,Riley Thompson,riley.thompson011@students.example.edu,ECON102,Macroeconomics,Summer,2022,F,2004-09-30
+id_0011,Riley Thompson,riley.thompson011@students.example.edu,PSY101,Introduction to Psychology,Spring,2023,B+,2004-09-30
+id_0011,Riley Thompson,riley.thompson011@students.example.edu,MATH230,Discrete Mathematics,Summer,2024,C-,2004-09-30
+id_0012,Jamie Robinson,jamie.robinson012@students.example.edu,PHYS102,Physics II,Fall,2020,F,1996-06-20
+id_0012,Jamie Robinson,jamie.robinson012@students.example.edu,ECON101,Microeconomics,Spring,2022,D-,1996-06-20
+id_0012,Jamie Robinson,jamie.robinson012@students.example.edu,MEDIA220,Digital Media Production,Spring,2023,B,1996-06-20
+id_0012,Jamie Robinson,jamie.robinson012@students.example.edu,ITAL101,Elementary Italian I,Fall,2024,A+,1996-06-20
+id_0013,Avery Lewis,avery.lewis013@students.example.edu,PSY101,Introduction to Psychology,Spring,2020,C,2001-03-12
+id_0013,Avery Lewis,avery.lewis013@students.example.edu,CS110,Programming I (Python),Fall,2022,B,2001-03-12
+id_0013,Avery Lewis,avery.lewis013@students.example.edu,CS280,Web Development,Fall,2023,D-,2001-03-12
+id_0013,Avery Lewis,avery.lewis013@students.example.edu,EDUC210,Educational Psychology,Summer,2025,C+,2001-03-12
+id_0014,Harper Anderson,harper.anderson014@students.example.edu,FIN201,Corporate Finance,Fall,2021,D-,2004-05-12
+id_0014,Harper Anderson,harper.anderson014@students.example.edu,CS290,Artificial Intelligence Fundamentals,Spring,2022,A,2004-05-12
+id_0014,Harper Anderson,harper.anderson014@students.example.edu,ECON102,Macroeconomics,Summer,2023,F,2004-05-12
+id_0014,Harper Anderson,harper.anderson014@students.example.edu,MUS120,Music Theory I,Summer,2025,B-,2004-05-12
+id_0015,Reese White,reese.white015@students.example.edu,ASTR101,Introduction to Astronomy,Fall,2020,D,2005-06-23
+id_0015,Reese White,reese.white015@students.example.edu,MGMT210,Principles of Management,Summer,2022,A-,2005-06-23
+id_0015,Reese White,reese.white015@students.example.edu,PHYS101,Physics I,Summer,2023,C-,2005-06-23
+id_0015,Reese White,reese.white015@students.example.edu,NURS200,Anatomy & Physiology,Summer,2024,B-,2005-06-23
+id_0016,Reese Clark,reese.clark016@students.example.edu,MUS120,Music Theory I,Spring,2021,D+,1998-09-23
+id_0016,Reese Clark,reese.clark016@students.example.edu,CYBER310,Introduction to Cybersecurity,Summer,2022,B+,1998-09-23
+id_0016,Reese Clark,reese.clark016@students.example.edu,ART110,Foundations of Drawing,Summer,2023,A+,1998-09-23
+id_0016,Reese Clark,reese.clark016@students.example.edu,ENG210,Technical Writing,Summer,2024,D-,1998-09-23
+id_0017,Reese Brown,reese.brown017@students.example.edu,CHIN101,Elementary Chinese I,Spring,2020,C-,2000-04-21
+id_0017,Reese Brown,reese.brown017@students.example.edu,ENV200,Environmental Science,Fall,2021,B-,2000-04-21
+id_0017,Reese Brown,reese.brown017@students.example.edu,ENG210,Technical Writing,Spring,2023,C,2000-04-21
+id_0017,Reese Brown,reese.brown017@students.example.edu,SPAN101,Elementary Spanish I,Spring,2025,C-,2000-04-21
+id_0018,Emma Lewis,emma.lewis018@students.example.edu,ECON102,Macroeconomics,Summer,2020,B-,2005-03-18
+id_0018,Emma Lewis,emma.lewis018@students.example.edu,MATH101,Calculus I,Fall,2021,D-,2005-03-18
+id_0018,Emma Lewis,emma.lewis018@students.example.edu,JAPN101,Elementary Japanese I,Summer,2023,D,2005-03-18
+id_0018,Emma Lewis,emma.lewis018@students.example.edu,CS230,Computer Architecture,Spring,2024,B-,2005-03-18
+id_0019,Logan Lee,logan.lee019@students.example.edu,FREN101,Elementary French I,Spring,2020,B+,2004-07-23
+id_0019,Logan Lee,logan.lee019@students.example.edu,BUS300,Business Analytics,Fall,2022,D,2004-07-23
+id_0019,Logan Lee,logan.lee019@students.example.edu,ART110,Foundations of Drawing,Summer,2023,B+,2004-07-23
+id_0019,Logan Lee,logan.lee019@students.example.edu,ENG210,Technical Writing,Fall,2025,A,2004-07-23
+id_0020,Quinn Martin,quinn.martin020@students.example.edu,CS120,Programming II (Java),Summer,2020,A+,1999-11-13
+id_0020,Quinn Martin,quinn.martin020@students.example.edu,CYBER310,Introduction to Cybersecurity,Spring,2021,B-,1999-11-13
+id_0020,Quinn Martin,quinn.martin020@students.example.edu,COMM101,Public Speaking,Spring,2022,B,1999-11-13
+id_0020,Quinn Martin,quinn.martin020@students.example.edu,CHIN101,Elementary Chinese I,Summer,2023,B-,1999-11-13
+id_0021,Jackson Miller,jackson.miller021@students.example.edu,CS230,Computer Architecture,Spring,2020,D+,1999-10-31
+id_0021,Jackson Miller,jackson.miller021@students.example.edu,CS290,Artificial Intelligence Fundamentals,Summer,2021,D+,1999-10-31
+id_0021,Jackson Miller,jackson.miller021@students.example.edu,MKTG220,Marketing Principles,Fall,2024,B+,1999-10-31
+id_0021,Jackson Miller,jackson.miller021@students.example.edu,PSY101,Introduction to Psychology,Summer,2025,D+,1999-10-31
+id_0022,Peyton Rodriguez,peyton.rodriguez022@students.example.edu,CS280,Web Development,Summer,2020,D,1996-08-09
+id_0022,Peyton Rodriguez,peyton.rodriguez022@students.example.edu,ECON102,Macroeconomics,Fall,2021,A-,1996-08-09
+id_0022,Peyton Rodriguez,peyton.rodriguez022@students.example.edu,COMM101,Public Speaking,Spring,2022,C,1996-08-09
+id_0022,Peyton Rodriguez,peyton.rodriguez022@students.example.edu,STAT200,Introduction to Statistics,Summer,2023,D+,1996-08-09
+id_0023,Skyler Jones,skyler.jones023@students.example.edu,COMM101,Public Speaking,Summer,2021,A,1998-05-10
+id_0023,Skyler Jones,skyler.jones023@students.example.edu,SOC101,Introduction to Sociology,Spring,2022,C+,1998-05-10
+id_0023,Skyler Jones,skyler.jones023@students.example.edu,ITAL101,Elementary Italian I,Fall,2023,B-,1998-05-10
+id_0023,Skyler Jones,skyler.jones023@students.example.edu,STAT200,Introduction to Statistics,Fall,2025,B,1998-05-10
+id_0024,Skyler Lee,skyler.lee024@students.example.edu,PHYS102,Physics II,Fall,2020,F,2002-11-04
+id_0024,Skyler Lee,skyler.lee024@students.example.edu,MATH201,Calculus II,Fall,2022,A+,2002-11-04
+id_0024,Skyler Lee,skyler.lee024@students.example.edu,EDUC210,Educational Psychology,Fall,2023,D-,2002-11-04
+id_0024,Skyler Lee,skyler.lee024@students.example.edu,SPAN101,Elementary Spanish I,Summer,2024,B,2002-11-04
+id_0025,Sophia Johnson,sophia.johnson025@students.example.edu,ENV200,Environmental Science,Fall,2021,F,2003-09-13
+id_0025,Sophia Johnson,sophia.johnson025@students.example.edu,CS280,Web Development,Fall,2022,D,2003-09-13
+id_0025,Sophia Johnson,sophia.johnson025@students.example.edu,GEOG120,World Geography,Spring,2023,D,2003-09-13
+id_0025,Sophia Johnson,sophia.johnson025@students.example.edu,BIO102,Biology II,Spring,2025,D,2003-09-13
+id_0026,Emma Robinson,emma.robinson026@students.example.edu,MATH220,Linear Algebra,Spring,2020,A,2002-04-01
+id_0026,Emma Robinson,emma.robinson026@students.example.edu,CHEM101,General Chemistry I,Summer,2022,B-,2002-04-01
+id_0026,Emma Robinson,emma.robinson026@students.example.edu,ASTR101,Introduction to Astronomy,Fall,2023,C+,2002-04-01
+id_0026,Emma Robinson,emma.robinson026@students.example.edu,ECON101,Microeconomics,Spring,2024,B+,2002-04-01
+id_0027,Peyton Davis,peyton.davis027@students.example.edu,ASTR101,Introduction to Astronomy,Summer,2020,C,1996-06-25
+id_0027,Peyton Davis,peyton.davis027@students.example.edu,ART110,Foundations of Drawing,Summer,2022,D-,1996-06-25
+id_0027,Peyton Davis,peyton.davis027@students.example.edu,MEDIA220,Digital Media Production,Summer,2024,F,1996-06-25
+id_0027,Peyton Davis,peyton.davis027@students.example.edu,ENG101,English Composition,Spring,2025,C,1996-06-25
+id_0028,Isabella Perez,isabella.perez028@students.example.edu,CS101,Introduction to Computer Science,Summer,2020,A+,2005-10-19
+id_0028,Isabella Perez,isabella.perez028@students.example.edu,CS230,Computer Architecture,Summer,2022,C-,2005-10-19
+id_0028,Isabella Perez,isabella.perez028@students.example.edu,CYBER310,Introduction to Cybersecurity,Spring,2023,C,2005-10-19
+id_0028,Isabella Perez,isabella.perez028@students.example.edu,CS280,Web Development,Summer,2025,D,2005-10-19
+id_0029,Reese Jackson,reese.jackson029@students.example.edu,FREN101,Elementary French I,Spring,2020,C,2003-05-26
+id_0029,Reese Jackson,reese.jackson029@students.example.edu,STAT200,Introduction to Statistics,Spring,2022,D+,2003-05-26
+id_0029,Reese Jackson,reese.jackson029@students.example.edu,POLS101,American Government,Fall,2024,B-,2003-05-26
+id_0029,Reese Jackson,reese.jackson029@students.example.edu,ENG210,Technical Writing,Fall,2025,B+,2003-05-26
+id_0030,Mia Hernandez,mia.hernandez030@students.example.edu,CS101,Introduction to Computer Science,Spring,2020,A+,2002-04-06
+id_0030,Mia Hernandez,mia.hernandez030@students.example.edu,COMM101,Public Speaking,Spring,2022,B,2002-04-06
+id_0030,Mia Hernandez,mia.hernandez030@students.example.edu,NURS200,Anatomy & Physiology,Summer,2023,A,2002-04-06
+id_0030,Mia Hernandez,mia.hernandez030@students.example.edu,ECON102,Macroeconomics,Spring,2025,B+,2002-04-06
+id_0031,Sophia Davis,sophia.davis031@students.example.edu,ART110,Foundations of Drawing,Fall,2022,D-,2004-12-13
+id_0031,Sophia Davis,sophia.davis031@students.example.edu,CS220,Algorithms,Spring,2023,C+,2004-12-13
+id_0031,Sophia Davis,sophia.davis031@students.example.edu,ENG210,Technical Writing,Fall,2024,A,2004-12-13
+id_0031,Sophia Davis,sophia.davis031@students.example.edu,ECON102,Macroeconomics,Summer,2025,D+,2004-12-13
+id_0032,Alex Thompson,alex.thompson032@students.example.edu,PHYS101,Physics I,Summer,2020,A,1999-07-30
+id_0032,Alex Thompson,alex.thompson032@students.example.edu,MATH220,Linear Algebra,Fall,2021,B-,1999-07-30
+id_0032,Alex Thompson,alex.thompson032@students.example.edu,ITAL101,Elementary Italian I,Fall,2023,D,1999-07-30
+id_0032,Alex Thompson,alex.thompson032@students.example.edu,ENG101,English Composition,Summer,2024,A+,1999-07-30
+id_0033,Jordan Miller,jordan.miller033@students.example.edu,PHYS101,Physics I,Fall,2020,D+,1999-06-19
+id_0033,Jordan Miller,jordan.miller033@students.example.edu,CS260,Computer Networks,Spring,2021,A+,1999-06-19
+id_0033,Jordan Miller,jordan.miller033@students.example.edu,CS210,Data Structures,Summer,2022,B+,1999-06-19
+id_0033,Jordan Miller,jordan.miller033@students.example.edu,BUS300,Business Analytics,Spring,2023,F,1999-06-19
+id_0034,Jackson Clark,jackson.clark034@students.example.edu,CS270,Software Engineering,Summer,2020,F,2001-05-01
+id_0034,Jackson Clark,jackson.clark034@students.example.edu,CS101,Introduction to Computer Science,Spring,2021,F,2001-05-01
+id_0034,Jackson Clark,jackson.clark034@students.example.edu,EDUC210,Educational Psychology,Fall,2024,A+,2001-05-01
+id_0034,Jackson Clark,jackson.clark034@students.example.edu,CYBER310,Introduction to Cybersecurity,Summer,2025,A-,2001-05-01
+id_0035,Skyler Rodriguez,skyler.rodriguez035@students.example.edu,ART110,Foundations of Drawing,Summer,2020,F,1996-06-16
+id_0035,Skyler Rodriguez,skyler.rodriguez035@students.example.edu,STAT200,Introduction to Statistics,Spring,2021,D+,1996-06-16
+id_0035,Skyler Rodriguez,skyler.rodriguez035@students.example.edu,ENV200,Environmental Science,Summer,2024,A+,1996-06-16
+id_0035,Skyler Rodriguez,skyler.rodriguez035@students.example.edu,CS250,Database Systems,Spring,2025,B,1996-06-16
+id_0036,Riley Harris,riley.harris036@students.example.edu,CS220,Algorithms,Summer,2020,C-,1995-08-03
+id_0036,Riley Harris,riley.harris036@students.example.edu,DATA300,Foundations of Data Science,Fall,2021,A,1995-08-03
+id_0036,Riley Harris,riley.harris036@students.example.edu,PSY101,Introduction to Psychology,Summer,2023,C-,1995-08-03
+id_0036,Riley Harris,riley.harris036@students.example.edu,MKTG220,Marketing Principles,Spring,2025,D+,1995-08-03
+id_0037,Harper Martinez,harper.martinez037@students.example.edu,JAPN101,Elementary Japanese I,Spring,2022,A+,1995-06-27
+id_0037,Harper Martinez,harper.martinez037@students.example.edu,ASTR101,Introduction to Astronomy,Summer,2023,C+,1995-06-27
+id_0037,Harper Martinez,harper.martinez037@students.example.edu,LAW210,Business Law,Summer,2024,D,1995-06-27
+id_0037,Harper Martinez,harper.martinez037@students.example.edu,SPAN101,Elementary Spanish I,Spring,2025,C,1995-06-27
+id_0038,Peyton Johnson,peyton.johnson038@students.example.edu,ECON101,Microeconomics,Spring,2020,B,2002-12-27
+id_0038,Peyton Johnson,peyton.johnson038@students.example.edu,CS101,Introduction to Computer Science,Fall,2021,D,2002-12-27
+id_0038,Peyton Johnson,peyton.johnson038@students.example.edu,THEA110,Theatre Appreciation,Fall,2022,C-,2002-12-27
+id_0038,Peyton Johnson,peyton.johnson038@students.example.edu,CS110,Programming I (Python),Fall,2024,B-,2002-12-27
+id_0039,Emerson Lopez,emerson.lopez039@students.example.edu,GEOG120,World Geography,Fall,2020,A,1999-04-10
+id_0039,Emerson Lopez,emerson.lopez039@students.example.edu,MKTG220,Marketing Principles,Fall,2023,D,1999-04-10
+id_0039,Emerson Lopez,emerson.lopez039@students.example.edu,PHYS102,Physics II,Fall,2024,D-,1999-04-10
+id_0039,Emerson Lopez,emerson.lopez039@students.example.edu,ECON102,Macroeconomics,Spring,2025,C+,1999-04-10
+id_0040,Emma Lee,emma.lee040@students.example.edu,MEDIA220,Digital Media Production,Spring,2022,B-,2000-01-24
+id_0040,Emma Lee,emma.lee040@students.example.edu,CS280,Web Development,Summer,2023,B-,2000-01-24
+id_0040,Emma Lee,emma.lee040@students.example.edu,PSY101,Introduction to Psychology,Fall,2024,B,2000-01-24
+id_0040,Emma Lee,emma.lee040@students.example.edu,BIO101,Biology I,Summer,2025,A-,2000-01-24
+id_0041,Olivia Robinson,olivia.robinson041@students.example.edu,FIN201,Corporate Finance,Fall,2020,D-,2002-09-14
+id_0041,Olivia Robinson,olivia.robinson041@students.example.edu,CS101,Introduction to Computer Science,Summer,2023,F,2002-09-14
+id_0041,Olivia Robinson,olivia.robinson041@students.example.edu,CS110,Programming I (Python),Spring,2024,C-,2002-09-14
+id_0041,Olivia Robinson,olivia.robinson041@students.example.edu,EDUC210,Educational Psychology,Spring,2025,D+,2002-09-14
+id_0042,Harper Lee,harper.lee042@students.example.edu,MUS120,Music Theory I,Spring,2022,B,2005-09-23
+id_0042,Harper Lee,harper.lee042@students.example.edu,BIO101,Biology I,Fall,2023,B,2005-09-23
+id_0042,Harper Lee,harper.lee042@students.example.edu,SPAN101,Elementary Spanish I,Summer,2024,A,2005-09-23
+id_0042,Harper Lee,harper.lee042@students.example.edu,CS210,Data Structures,Fall,2025,C-,2005-09-23
+id_0043,Casey Lewis,casey.lewis043@students.example.edu,CS230,Computer Architecture,Summer,2020,D+,1997-05-21
+id_0043,Casey Lewis,casey.lewis043@students.example.edu,SPAN101,Elementary Spanish I,Spring,2022,F,1997-05-21
+id_0043,Casey Lewis,casey.lewis043@students.example.edu,FIN201,Corporate Finance,Summer,2024,C-,1997-05-21
+id_0043,Casey Lewis,casey.lewis043@students.example.edu,CS280,Web Development,Fall,2025,D+,1997-05-21
+id_0044,Harper Jones,harper.jones044@students.example.edu,LIT200,Literary Analysis,Summer,2020,D-,2002-07-27
+id_0044,Harper Jones,harper.jones044@students.example.edu,MUS120,Music Theory I,Summer,2022,B-,2002-07-27
+id_0044,Harper Jones,harper.jones044@students.example.edu,MATH201,Calculus II,Summer,2023,A+,2002-07-27
+id_0044,Harper Jones,harper.jones044@students.example.edu,GEOG120,World Geography,Spring,2025,A-,2002-07-27
+id_0045,Noah Davis,noah.davis045@students.example.edu,SPAN101,Elementary Spanish I,Fall,2020,B+,2001-05-08
+id_0045,Noah Davis,noah.davis045@students.example.edu,HIST101,World History,Summer,2022,C+,2001-05-08
+id_0045,Noah Davis,noah.davis045@students.example.edu,CS101,Introduction to Computer Science,Summer,2024,B-,2001-05-08
+id_0045,Noah Davis,noah.davis045@students.example.edu,CS230,Computer Architecture,Spring,2025,B-,2001-05-08
+id_0046,Jordan Martin,jordan.martin046@students.example.edu,JAPN101,Elementary Japanese I,Spring,2020,F,1998-06-30
+id_0046,Jordan Martin,jordan.martin046@students.example.edu,CHEM102,Organic Chemistry I,Fall,2023,A+,1998-06-30
+id_0046,Jordan Martin,jordan.martin046@students.example.edu,INFO200,Information Systems,Fall,2024,A,1998-06-30
+id_0046,Jordan Martin,jordan.martin046@students.example.edu,PHIL101,Introduction to Philosophy,Summer,2025,C,1998-06-30
+id_0047,Olivia Brown,olivia.brown047@students.example.edu,SOC101,Introduction to Sociology,Spring,2021,B-,2002-06-04
+id_0047,Olivia Brown,olivia.brown047@students.example.edu,ACCT201,Financial Accounting,Summer,2022,A,2002-06-04
+id_0047,Olivia Brown,olivia.brown047@students.example.edu,GEOG120,World Geography,Summer,2023,D,2002-06-04
+id_0047,Olivia Brown,olivia.brown047@students.example.edu,ECON101,Microeconomics,Fall,2024,D+,2002-06-04
+id_0048,Logan Jones,logan.jones048@students.example.edu,MKTG220,Marketing Principles,Spring,2020,B,2000-06-16
+id_0048,Logan Jones,logan.jones048@students.example.edu,SPAN101,Elementary Spanish I,Spring,2021,F,2000-06-16
+id_0048,Logan Jones,logan.jones048@students.example.edu,CHEM101,General Chemistry I,Spring,2023,F,2000-06-16
+id_0048,Logan Jones,logan.jones048@students.example.edu,MATH220,Linear Algebra,Summer,2024,B,2000-06-16
+id_0049,Liam Thomas,liam.thomas049@students.example.edu,CS210,Data Structures,Fall,2021,D-,1998-09-05
+id_0049,Liam Thomas,liam.thomas049@students.example.edu,MATH101,Calculus I,Spring,2023,C-,1998-09-05
+id_0049,Liam Thomas,liam.thomas049@students.example.edu,ACCT201,Financial Accounting,Fall,2024,D,1998-09-05
+id_0049,Liam Thomas,liam.thomas049@students.example.edu,DATA300,Foundations of Data Science,Summer,2025,A,1998-09-05
+id_0050,Skyler Perez,skyler.perez050@students.example.edu,LAW210,Business Law,Fall,2020,C+,1999-06-15
+id_0050,Skyler Perez,skyler.perez050@students.example.edu,DATA300,Foundations of Data Science,Fall,2021,C+,1999-06-15
+id_0050,Skyler Perez,skyler.perez050@students.example.edu,MATH220,Linear Algebra,Fall,2023,D,1999-06-15
+id_0050,Skyler Perez,skyler.perez050@students.example.edu,SOC101,Introduction to Sociology,Summer,2025,B,1999-06-15
+id_0051,Cameron Taylor,cameron.taylor051@students.example.edu,HIST101,World History,Summer,2020,A,1996-04-16
+id_0051,Cameron Taylor,cameron.taylor051@students.example.edu,MATH201,Calculus II,Spring,2022,C+,1996-04-16
+id_0051,Cameron Taylor,cameron.taylor051@students.example.edu,CHEM102,Organic Chemistry I,Fall,2023,C+,1996-04-16
+id_0051,Cameron Taylor,cameron.taylor051@students.example.edu,CS240,Operating Systems,Fall,2024,A,1996-04-16
+id_0052,Finley Martin,finley.martin052@students.example.edu,LAW210,Business Law,Fall,2020,D,1999-06-10
+id_0052,Finley Martin,finley.martin052@students.example.edu,CHEM101,General Chemistry I,Spring,2021,C-,1999-06-10
+id_0052,Finley Martin,finley.martin052@students.example.edu,DATA300,Foundations of Data Science,Fall,2022,B+,1999-06-10
+id_0052,Finley Martin,finley.martin052@students.example.edu,BIO101,Biology I,Summer,2025,B-,1999-06-10
+id_0053,Emma Hernandez,emma.hernandez053@students.example.edu,NURS200,Anatomy & Physiology,Spring,2020,D+,2003-02-27
+id_0053,Emma Hernandez,emma.hernandez053@students.example.edu,LIT200,Literary Analysis,Spring,2021,F,2003-02-27
+id_0053,Emma Hernandez,emma.hernandez053@students.example.edu,CS230,Computer Architecture,Fall,2022,A,2003-02-27
+id_0053,Emma Hernandez,emma.hernandez053@students.example.edu,CS290,Artificial Intelligence Fundamentals,Spring,2025,F,2003-02-27
+id_0054,Finley Williams,finley.williams054@students.example.edu,ACCT201,Financial Accounting,Summer,2022,A-,2002-01-16
+id_0054,Finley Williams,finley.williams054@students.example.edu,ECON102,Macroeconomics,Summer,2023,A,2002-01-16
+id_0054,Finley Williams,finley.williams054@students.example.edu,CYBER310,Introduction to Cybersecurity,Summer,2024,C,2002-01-16
+id_0054,Finley Williams,finley.williams054@students.example.edu,PHIL101,Introduction to Philosophy,Fall,2025,B,2002-01-16
+id_0055,Alex Lopez,alex.lopez055@students.example.edu,PHYS101,Physics I,Summer,2020,A+,2003-12-06
+id_0055,Alex Lopez,alex.lopez055@students.example.edu,POLS101,American Government,Spring,2021,B-,2003-12-06
+id_0055,Alex Lopez,alex.lopez055@students.example.edu,MATH230,Discrete Mathematics,Summer,2022,A,2003-12-06
+id_0055,Alex Lopez,alex.lopez055@students.example.edu,BIO102,Biology II,Fall,2024,A,2003-12-06
+id_0056,Sam Davis,sam.davis056@students.example.edu,GEOG120,World Geography,Fall,2020,D,2001-11-24
+id_0056,Sam Davis,sam.davis056@students.example.edu,MGMT210,Principles of Management,Spring,2021,B-,2001-11-24
+id_0056,Sam Davis,sam.davis056@students.example.edu,ENG210,Technical Writing,Fall,2024,C,2001-11-24
+id_0056,Sam Davis,sam.davis056@students.example.edu,ECON102,Macroeconomics,Fall,2025,A-,2001-11-24
+id_0057,Jackson Williams,jackson.williams057@students.example.edu,MATH230,Discrete Mathematics,Spring,2020,D-,2005-09-27
+id_0057,Jackson Williams,jackson.williams057@students.example.edu,ECON101,Microeconomics,Summer,2021,C,2005-09-27
+id_0057,Jackson Williams,jackson.williams057@students.example.edu,CS120,Programming II (Java),Fall,2022,C-,2005-09-27
+id_0057,Jackson Williams,jackson.williams057@students.example.edu,ENV200,Environmental Science,Fall,2024,A-,2005-09-27
+id_0058,Zoe Jackson,zoe.jackson058@students.example.edu,ENG101,English Composition,Fall,2020,B-,1999-01-30
+id_0058,Zoe Jackson,zoe.jackson058@students.example.edu,PHYS102,Physics II,Spring,2022,B-,1999-01-30
+id_0058,Zoe Jackson,zoe.jackson058@students.example.edu,ENG210,Technical Writing,Spring,2024,C-,1999-01-30
+id_0058,Zoe Jackson,zoe.jackson058@students.example.edu,PSY101,Introduction to Psychology,Fall,2025,C+,1999-01-30
+id_0059,Noah Williams,noah.williams059@students.example.edu,STAT200,Introduction to Statistics,Fall,2020,D,1998-03-09
+id_0059,Noah Williams,noah.williams059@students.example.edu,JAPN101,Elementary Japanese I,Spring,2021,B-,1998-03-09
+id_0059,Noah Williams,noah.williams059@students.example.edu,BUS300,Business Analytics,Summer,2022,D,1998-03-09
+id_0059,Noah Williams,noah.williams059@students.example.edu,SPAN101,Elementary Spanish I,Fall,2024,D,1998-03-09
+id_0060,Finley Martinez,finley.martinez060@students.example.edu,CS220,Algorithms,Summer,2022,A-,1999-05-25
+id_0060,Finley Martinez,finley.martinez060@students.example.edu,GEOG120,World Geography,Fall,2023,D-,1999-05-25
+id_0060,Finley Martinez,finley.martinez060@students.example.edu,CHIN101,Elementary Chinese I,Fall,2024,D,1999-05-25
+id_0060,Finley Martinez,finley.martinez060@students.example.edu,CS110,Programming I (Python),Fall,2025,A,1999-05-25
+id_0061,Reese Perez,reese.perez061@students.example.edu,SPAN101,Elementary Spanish I,Spring,2020,B-,2002-03-31
+id_0061,Reese Perez,reese.perez061@students.example.edu,SOC101,Introduction to Sociology,Summer,2022,B+,2002-03-31
+id_0061,Reese Perez,reese.perez061@students.example.edu,MGMT210,Principles of Management,Spring,2024,A-,2002-03-31
+id_0061,Reese Perez,reese.perez061@students.example.edu,ENG101,English Composition,Spring,2025,A,2002-03-31
+id_0062,Isabella Harris,isabella.harris062@students.example.edu,BUS300,Business Analytics,Summer,2020,F,1998-04-26
+id_0062,Isabella Harris,isabella.harris062@students.example.edu,ASTR101,Introduction to Astronomy,Fall,2022,A-,1998-04-26
+id_0062,Isabella Harris,isabella.harris062@students.example.edu,CS120,Programming II (Java),Fall,2024,C+,1998-04-26
+id_0062,Isabella Harris,isabella.harris062@students.example.edu,MGMT210,Principles of Management,Spring,2025,A-,1998-04-26
+id_0063,Jackson Harris,jackson.harris063@students.example.edu,EDUC210,Educational Psychology,Summer,2020,D,1997-01-10
+id_0063,Jackson Harris,jackson.harris063@students.example.edu,ITAL101,Elementary Italian I,Fall,2021,B+,1997-01-10
+id_0063,Jackson Harris,jackson.harris063@students.example.edu,INFO200,Information Systems,Summer,2023,D+,1997-01-10
+id_0063,Jackson Harris,jackson.harris063@students.example.edu,ANTH110,Cultural Anthropology,Summer,2025,F,1997-01-10
+id_0064,Sam Johnson,sam.johnson064@students.example.edu,ASTR101,Introduction to Astronomy,Summer,2020,D,2003-05-25
+id_0064,Sam Johnson,sam.johnson064@students.example.edu,ECON101,Microeconomics,Fall,2021,C,2003-05-25
+id_0064,Sam Johnson,sam.johnson064@students.example.edu,CS280,Web Development,Summer,2022,F,2003-05-25
+id_0064,Sam Johnson,sam.johnson064@students.example.edu,ART110,Foundations of Drawing,Summer,2023,F,2003-05-25
+id_0065,Isabella Smith,isabella.smith065@students.example.edu,MGMT210,Principles of Management,Spring,2021,D,1999-04-14
+id_0065,Isabella Smith,isabella.smith065@students.example.edu,MKTG220,Marketing Principles,Summer,2023,B-,1999-04-14
+id_0065,Isabella Smith,isabella.smith065@students.example.edu,PSY101,Introduction to Psychology,Fall,2024,A,1999-04-14
+id_0065,Isabella Smith,isabella.smith065@students.example.edu,CS240,Operating Systems,Fall,2025,C-,1999-04-14
+id_0066,Zoe Sanchez,zoe.sanchez066@students.example.edu,CS210,Data Structures,Spring,2021,C+,2004-07-18
+id_0066,Zoe Sanchez,zoe.sanchez066@students.example.edu,PHYS102,Physics II,Spring,2022,B+,2004-07-18
+id_0066,Zoe Sanchez,zoe.sanchez066@students.example.edu,CS110,Programming I (Python),Summer,2023,B-,2004-07-18
+id_0066,Zoe Sanchez,zoe.sanchez066@students.example.edu,CYBER310,Introduction to Cybersecurity,Spring,2024,C+,2004-07-18
+id_0067,Sophia Smith,sophia.smith067@students.example.edu,HIST101,World History,Spring,2020,B-,1995-08-07
+id_0067,Sophia Smith,sophia.smith067@students.example.edu,MGMT210,Principles of Management,Spring,2022,D-,1995-08-07
+id_0067,Sophia Smith,sophia.smith067@students.example.edu,ENG101,English Composition,Fall,2023,B-,1995-08-07
+id_0067,Sophia Smith,sophia.smith067@students.example.edu,CS290,Artificial Intelligence Fundamentals,Spring,2024,A-,1995-08-07
+id_0068,Riley Williams,riley.williams068@students.example.edu,PHYS102,Physics II,Spring,2021,A,1995-06-06
+id_0068,Riley Williams,riley.williams068@students.example.edu,EDUC210,Educational Psychology,Spring,2022,B,1995-06-06
+id_0068,Riley Williams,riley.williams068@students.example.edu,FIN201,Corporate Finance,Spring,2023,A-,1995-06-06
+id_0068,Riley Williams,riley.williams068@students.example.edu,ITAL101,Elementary Italian I,Fall,2024,D-,1995-06-06
+id_0069,Olivia Garcia,olivia.garcia069@students.example.edu,MKTG220,Marketing Principles,Spring,2020,B+,2001-10-29
+id_0069,Olivia Garcia,olivia.garcia069@students.example.edu,SOC101,Introduction to Sociology,Summer,2021,D,2001-10-29
+id_0069,Olivia Garcia,olivia.garcia069@students.example.edu,CS210,Data Structures,Fall,2022,C,2001-10-29
+id_0069,Olivia Garcia,olivia.garcia069@students.example.edu,INFO200,Information Systems,Spring,2025,A,2001-10-29
+id_0070,Rowan Robinson,rowan.robinson070@students.example.edu,THEA110,Theatre Appreciation,Spring,2020,B,2004-05-20
+id_0070,Rowan Robinson,rowan.robinson070@students.example.edu,ACCT201,Financial Accounting,Summer,2021,A+,2004-05-20
+id_0070,Rowan Robinson,rowan.robinson070@students.example.edu,GEOG120,World Geography,Fall,2022,B-,2004-05-20
+id_0070,Rowan Robinson,rowan.robinson070@students.example.edu,ART110,Foundations of Drawing,Spring,2024,D+,2004-05-20
+id_0071,Zoe Brown,zoe.brown071@students.example.edu,CS250,Database Systems,Summer,2020,A+,1999-09-03
+id_0071,Zoe Brown,zoe.brown071@students.example.edu,SPAN101,Elementary Spanish I,Fall,2021,C+,1999-09-03
+id_0071,Zoe Brown,zoe.brown071@students.example.edu,CS110,Programming I (Python),Summer,2022,B,1999-09-03
+id_0071,Zoe Brown,zoe.brown071@students.example.edu,MKTG220,Marketing Principles,Fall,2024,A+,1999-09-03
+id_0072,Avery Harris,avery.harris072@students.example.edu,ASTR101,Introduction to Astronomy,Spring,2020,B-,1999-01-02
+id_0072,Avery Harris,avery.harris072@students.example.edu,CS101,Introduction to Computer Science,Fall,2022,B-,1999-01-02
+id_0072,Avery Harris,avery.harris072@students.example.edu,BIO102,Biology II,Fall,2024,A-,1999-01-02
+id_0072,Avery Harris,avery.harris072@students.example.edu,CS290,Artificial Intelligence Fundamentals,Fall,2025,C,1999-01-02
+id_0073,Morgan Lee,morgan.lee073@students.example.edu,ITAL101,Elementary Italian I,Summer,2020,B+,2005-12-31
+id_0073,Morgan Lee,morgan.lee073@students.example.edu,FIN201,Corporate Finance,Spring,2021,F,2005-12-31
+id_0073,Morgan Lee,morgan.lee073@students.example.edu,COMM101,Public Speaking,Spring,2023,A+,2005-12-31
+id_0073,Morgan Lee,morgan.lee073@students.example.edu,CS250,Database Systems,Summer,2024,B,2005-12-31
+id_0074,Finley Perez,finley.perez074@students.example.edu,HIST101,World History,Summer,2020,F,2000-10-12
+id_0074,Finley Perez,finley.perez074@students.example.edu,NURS200,Anatomy & Physiology,Spring,2021,D,2000-10-12
+id_0074,Finley Perez,finley.perez074@students.example.edu,ART110,Foundations of Drawing,Summer,2022,B,2000-10-12
+id_0074,Finley Perez,finley.perez074@students.example.edu,FIN201,Corporate Finance,Spring,2023,F,2000-10-12
+id_0075,Riley Ramirez,riley.ramirez075@students.example.edu,SOC101,Introduction to Sociology,Summer,2020,D-,1999-02-16
+id_0075,Riley Ramirez,riley.ramirez075@students.example.edu,MEDIA220,Digital Media Production,Summer,2022,B-,1999-02-16
+id_0075,Riley Ramirez,riley.ramirez075@students.example.edu,HIST101,World History,Fall,2023,B,1999-02-16
+id_0075,Riley Ramirez,riley.ramirez075@students.example.edu,DATA300,Foundations of Data Science,Spring,2025,D-,1999-02-16
+id_0076,Alex Martin,alex.martin076@students.example.edu,CS110,Programming I (Python),Spring,2021,A,1999-10-05
+id_0076,Alex Martin,alex.martin076@students.example.edu,SOC101,Introduction to Sociology,Summer,2022,D,1999-10-05
+id_0076,Alex Martin,alex.martin076@students.example.edu,GEOG120,World Geography,Summer,2024,B,1999-10-05
+id_0076,Alex Martin,alex.martin076@students.example.edu,NURS200,Anatomy & Physiology,Summer,2025,D+,1999-10-05
+id_0077,Emma Ramirez,emma.ramirez077@students.example.edu,SOC101,Introduction to Sociology,Summer,2020,D+,2003-01-18
+id_0077,Emma Ramirez,emma.ramirez077@students.example.edu,CS240,Operating Systems,Summer,2022,B,2003-01-18
+id_0077,Emma Ramirez,emma.ramirez077@students.example.edu,ITAL101,Elementary Italian I,Fall,2023,F,2003-01-18
+id_0077,Emma Ramirez,emma.ramirez077@students.example.edu,ECON101,Microeconomics,Spring,2025,A,2003-01-18
+id_0078,Peyton Robinson,peyton.robinson078@students.example.edu,COMM101,Public Speaking,Fall,2020,D,2002-07-12
+id_0078,Peyton Robinson,peyton.robinson078@students.example.edu,HIST101,World History,Summer,2021,A+,2002-07-12
+id_0078,Peyton Robinson,peyton.robinson078@students.example.edu,ENG101,English Composition,Spring,2023,A,2002-07-12
+id_0078,Peyton Robinson,peyton.robinson078@students.example.edu,MGMT210,Principles of Management,Spring,2025,F,2002-07-12
+id_0079,Jordan Brown,jordan.brown079@students.example.edu,ENG101,English Composition,Summer,2021,C,2002-03-27
+id_0079,Jordan Brown,jordan.brown079@students.example.edu,ENG210,Technical Writing,Spring,2023,D+,2002-03-27
+id_0079,Jordan Brown,jordan.brown079@students.example.edu,PHIL101,Introduction to Philosophy,Spring,2024,C-,2002-03-27
+id_0079,Jordan Brown,jordan.brown079@students.example.edu,MATH220,Linear Algebra,Summer,2025,C+,2002-03-27
+id_0080,Jordan Thomas,jordan.thomas080@students.example.edu,LIT200,Literary Analysis,Summer,2020,C-,1998-07-11
+id_0080,Jordan Thomas,jordan.thomas080@students.example.edu,PHYS101,Physics I,Spring,2021,B,1998-07-11
+id_0080,Jordan Thomas,jordan.thomas080@students.example.edu,CS290,Artificial Intelligence Fundamentals,Summer,2022,D-,1998-07-11
+id_0080,Jordan Thomas,jordan.thomas080@students.example.edu,CS210,Data Structures,Summer,2023,B+,1998-07-11
+id_0081,Isabella Lee,isabella.lee081@students.example.edu,PHYS102,Physics II,Spring,2020,D-,2001-11-11
+id_0081,Isabella Lee,isabella.lee081@students.example.edu,ITAL101,Elementary Italian I,Summer,2021,A,2001-11-11
+id_0081,Isabella Lee,isabella.lee081@students.example.edu,ACCT201,Financial Accounting,Fall,2024,B-,2001-11-11
+id_0081,Isabella Lee,isabella.lee081@students.example.edu,CS260,Computer Networks,Fall,2025,B-,2001-11-11
+id_0082,Emma Rodriguez,emma.rodriguez082@students.example.edu,CS101,Introduction to Computer Science,Fall,2021,B+,2002-12-16
+id_0082,Emma Rodriguez,emma.rodriguez082@students.example.edu,MUS120,Music Theory I,Spring,2022,B+,2002-12-16
+id_0082,Emma Rodriguez,emma.rodriguez082@students.example.edu,ART110,Foundations of Drawing,Spring,2023,B+,2002-12-16
+id_0082,Emma Rodriguez,emma.rodriguez082@students.example.edu,PHYS102,Physics II,Summer,2024,A+,2002-12-16
+id_0083,Cameron Gonzalez,cameron.gonzalez083@students.example.edu,MUS120,Music Theory I,Summer,2020,C+,1999-01-18
+id_0083,Cameron Gonzalez,cameron.gonzalez083@students.example.edu,PHIL101,Introduction to Philosophy,Fall,2021,D-,1999-01-18
+id_0083,Cameron Gonzalez,cameron.gonzalez083@students.example.edu,ENG101,English Composition,Summer,2023,C-,1999-01-18
+id_0083,Cameron Gonzalez,cameron.gonzalez083@students.example.edu,ECON102,Macroeconomics,Summer,2024,F,1999-01-18
+id_0084,Alex Robinson,alex.robinson084@students.example.edu,NURS200,Anatomy & Physiology,Fall,2020,C-,1999-08-05
+id_0084,Alex Robinson,alex.robinson084@students.example.edu,PHIL101,Introduction to Philosophy,Summer,2021,A-,1999-08-05
+id_0084,Alex Robinson,alex.robinson084@students.example.edu,CS101,Introduction to Computer Science,Fall,2022,D,1999-08-05
+id_0084,Alex Robinson,alex.robinson084@students.example.edu,CS220,Algorithms,Fall,2023,A-,1999-08-05
+id_0085,Sam Thompson,sam.thompson085@students.example.edu,CS220,Algorithms,Spring,2020,A-,2003-08-11
+id_0085,Sam Thompson,sam.thompson085@students.example.edu,SOC101,Introduction to Sociology,Summer,2021,D-,2003-08-11
+id_0085,Sam Thompson,sam.thompson085@students.example.edu,MGMT210,Principles of Management,Spring,2023,B-,2003-08-11
+id_0085,Sam Thompson,sam.thompson085@students.example.edu,LAW210,Business Law,Fall,2025,B,2003-08-11
+id_0086,Jamie Lee,jamie.lee086@students.example.edu,CS110,Programming I (Python),Summer,2021,D+,2004-06-26
+id_0086,Jamie Lee,jamie.lee086@students.example.edu,STAT200,Introduction to Statistics,Fall,2022,A,2004-06-26
+id_0086,Jamie Lee,jamie.lee086@students.example.edu,CS260,Computer Networks,Fall,2024,D,2004-06-26
+id_0086,Jamie Lee,jamie.lee086@students.example.edu,COMM101,Public Speaking,Spring,2025,D+,2004-06-26
+id_0087,Reese Smith,reese.smith087@students.example.edu,POLS101,American Government,Spring,2022,A+,2005-07-23
+id_0087,Reese Smith,reese.smith087@students.example.edu,CS230,Computer Architecture,Spring,2023,A+,2005-07-23
+id_0087,Reese Smith,reese.smith087@students.example.edu,CS240,Operating Systems,Fall,2024,F,2005-07-23
+id_0087,Reese Smith,reese.smith087@students.example.edu,SPAN101,Elementary Spanish I,Fall,2025,B,2005-07-23
+id_0088,Ethan Johnson,ethan.johnson088@students.example.edu,CS270,Software Engineering,Fall,2020,B,2002-04-21
+id_0088,Ethan Johnson,ethan.johnson088@students.example.edu,INFO200,Information Systems,Fall,2022,B,2002-04-21
+id_0088,Ethan Johnson,ethan.johnson088@students.example.edu,PHIL101,Introduction to Philosophy,Summer,2023,B+,2002-04-21
+id_0088,Ethan Johnson,ethan.johnson088@students.example.edu,PSY101,Introduction to Psychology,Fall,2024,C+,2002-04-21
+id_0089,Taylor Sanchez,taylor.sanchez089@students.example.edu,ECON102,Macroeconomics,Summer,2021,B+,1998-05-03
+id_0089,Taylor Sanchez,taylor.sanchez089@students.example.edu,CS101,Introduction to Computer Science,Summer,2023,D+,1998-05-03
+id_0089,Taylor Sanchez,taylor.sanchez089@students.example.edu,ITAL101,Elementary Italian I,Spring,2024,B-,1998-05-03
+id_0089,Taylor Sanchez,taylor.sanchez089@students.example.edu,MATH230,Discrete Mathematics,Fall,2025,B-,1998-05-03
+id_0090,Mia Perez,mia.perez090@students.example.edu,LAW210,Business Law,Spring,2020,C,2003-03-27
+id_0090,Mia Perez,mia.perez090@students.example.edu,BIO102,Biology II,Spring,2021,B,2003-03-27
+id_0090,Mia Perez,mia.perez090@students.example.edu,HIST101,World History,Summer,2022,B+,2003-03-27
+id_0090,Mia Perez,mia.perez090@students.example.edu,CS220,Algorithms,Spring,2024,A,2003-03-27
+id_0091,Noah Martin,noah.martin091@students.example.edu,PHYS102,Physics II,Fall,2021,D-,1995-07-27
+id_0091,Noah Martin,noah.martin091@students.example.edu,ENG210,Technical Writing,Summer,2023,B+,1995-07-27
+id_0091,Noah Martin,noah.martin091@students.example.edu,LAW210,Business Law,Spring,2024,C,1995-07-27
+id_0091,Noah Martin,noah.martin091@students.example.edu,ANTH110,Cultural Anthropology,Fall,2025,C,1995-07-27
+id_0092,Rowan Garcia,rowan.garcia092@students.example.edu,MEDIA220,Digital Media Production,Spring,2020,D+,2000-08-04
+id_0092,Rowan Garcia,rowan.garcia092@students.example.edu,CHEM101,General Chemistry I,Summer,2023,A+,2000-08-04
+id_0092,Rowan Garcia,rowan.garcia092@students.example.edu,ACCT201,Financial Accounting,Spring,2024,B,2000-08-04
+id_0092,Rowan Garcia,rowan.garcia092@students.example.edu,MATH201,Calculus II,Summer,2025,D+,2000-08-04
+id_0093,Emma Anderson,emma.anderson093@students.example.edu,EDUC210,Educational Psychology,Summer,2020,A-,2004-11-23
+id_0093,Emma Anderson,emma.anderson093@students.example.edu,LIT200,Literary Analysis,Summer,2022,D-,2004-11-23
+id_0093,Emma Anderson,emma.anderson093@students.example.edu,FREN101,Elementary French I,Summer,2023,F,2004-11-23
+id_0093,Emma Anderson,emma.anderson093@students.example.edu,FIN201,Corporate Finance,Summer,2024,B-,2004-11-23
+id_0094,Liam Harris,liam.harris094@students.example.edu,HIST101,World History,Summer,2020,C-,1995-07-05
+id_0094,Liam Harris,liam.harris094@students.example.edu,MATH230,Discrete Mathematics,Summer,2021,F,1995-07-05
+id_0094,Liam Harris,liam.harris094@students.example.edu,PHIL101,Introduction to Philosophy,Fall,2022,B,1995-07-05
+id_0094,Liam Harris,liam.harris094@students.example.edu,MUS120,Music Theory I,Fall,2024,D,1995-07-05
+id_0095,Jackson Davis,jackson.davis095@students.example.edu,CS210,Data Structures,Spring,2020,D+,2001-11-07
+id_0095,Jackson Davis,jackson.davis095@students.example.edu,CS220,Algorithms,Fall,2022,C+,2001-11-07
+id_0095,Jackson Davis,jackson.davis095@students.example.edu,CS120,Programming II (Java),Fall,2024,A+,2001-11-07
+id_0095,Jackson Davis,jackson.davis095@students.example.edu,HIST101,World History,Spring,2025,A+,2001-11-07
+id_0096,Jackson Thompson,jackson.thompson096@students.example.edu,CHIN101,Elementary Chinese I,Fall,2021,A-,1996-07-15
+id_0096,Jackson Thompson,jackson.thompson096@students.example.edu,BIO101,Biology I,Summer,2022,D+,1996-07-15
+id_0096,Jackson Thompson,jackson.thompson096@students.example.edu,ENV200,Environmental Science,Summer,2023,A-,1996-07-15
+id_0096,Jackson Thompson,jackson.thompson096@students.example.edu,FIN201,Corporate Finance,Summer,2024,D+,1996-07-15
+id_0097,Jordan Johnson,jordan.johnson097@students.example.edu,EDUC210,Educational Psychology,Fall,2022,B,2003-04-17
+id_0097,Jordan Johnson,jordan.johnson097@students.example.edu,CHEM101,General Chemistry I,Summer,2023,A+,2003-04-17
+id_0097,Jordan Johnson,jordan.johnson097@students.example.edu,POLS101,American Government,Summer,2024,B-,2003-04-17
+id_0097,Jordan Johnson,jordan.johnson097@students.example.edu,BIO101,Biology I,Fall,2025,A,2003-04-17
+id_0098,Noah White,noah.white098@students.example.edu,PSY101,Introduction to Psychology,Fall,2020,F,2005-12-27
+id_0098,Noah White,noah.white098@students.example.edu,POLS101,American Government,Fall,2021,D+,2005-12-27
+id_0098,Noah White,noah.white098@students.example.edu,CHEM101,General Chemistry I,Spring,2023,D-,2005-12-27
+id_0098,Noah White,noah.white098@students.example.edu,ASTR101,Introduction to Astronomy,Spring,2025,D+,2005-12-27
+id_0099,Peyton Gonzalez,peyton.gonzalez099@students.example.edu,CS240,Operating Systems,Spring,2021,A+,2000-05-21
+id_0099,Peyton Gonzalez,peyton.gonzalez099@students.example.edu,MKTG220,Marketing Principles,Fall,2022,D-,2000-05-21
+id_0099,Peyton Gonzalez,peyton.gonzalez099@students.example.edu,COMM101,Public Speaking,Spring,2023,B+,2000-05-21
+id_0099,Peyton Gonzalez,peyton.gonzalez099@students.example.edu,JAPN101,Elementary Japanese I,Spring,2024,C,2000-05-21
+id_0100,Mia Miller,mia.miller100@students.example.edu,PSY101,Introduction to Psychology,Fall,2022,A+,1998-07-08
+id_0100,Mia Miller,mia.miller100@students.example.edu,CS230,Computer Architecture,Fall,2023,A-,1998-07-08
+id_0100,Mia Miller,mia.miller100@students.example.edu,ITAL101,Elementary Italian I,Fall,2024,B+,1998-07-08
+id_0100,Mia Miller,mia.miller100@students.example.edu,CS270,Software Engineering,Fall,2025,B-,1998-07-08

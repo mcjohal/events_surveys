@@ -61,9 +61,9 @@ class Survey(db.Model):
     allergies = db.Column(db.String(200))
     want = db.Column(db.Text)
     dontwant = db.Column(db.Text)    
-    shirt = db.Column(db.String(50))
-    pant = db.Column(db.String(50))
-    shoe = db.Column(db.String(50))
+    shirt = db.Column(db.String(75))
+    pant = db.Column(db.String(75))
+    shoe = db.Column(db.String(75))
 
 
     def to_dict(self):
